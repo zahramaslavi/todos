@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test App component 1`] = `
+<div
+  className="App"
+>
+  <TodoWrapper />
+</div>
+`;

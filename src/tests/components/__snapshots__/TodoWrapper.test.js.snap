@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test TodoWrapper component snapshot 1`] = `
+<div
+  className="todoWrapper"
+>
+  <TodoFilter
+    hideCompleted={false}
+    todoCount={3}
+    toggleHideCompleted={[Function]}
+  />
+  <AddTodo
+    addTodo={[Function]}
+  />
+  <TodoList
+    handleDeleteTodo={[Function]}
+    handleToggleComplete={[Function]}
+    todos={
+      Array [
+        Object {
+          "completed": false,
+          "description": "test",
+          "id": 0,
+        },
+        Object {
+          "completed": false,
+          "description": "test",
+          "id": 1,
+        },
+        Object {
+          "completed": false,
+          "description": "test",
+          "id": 2,
+        },
+      ]
+    }
+  />
+</div>
+`;

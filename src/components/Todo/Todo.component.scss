@@ -1,0 +1,24 @@
+.todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: solid 1px lightgray;
+
+    div input {
+        margin-right: .5em;
+        cursor: pointer;
+    }
+
+    div span.completed {
+        text-decoration: line-through;
+    }
+
+    .delete {
+        cursor: pointer;
+        padding: .5em
+    }
+}

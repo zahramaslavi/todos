@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test Todo component 1`] = `
+<div
+  className="todo"
+>
+  <div>
+    <input
+      checked={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="active"
+    >
+      test
+    </span>
+  </div>
+  <span
+    className="delete"
+    onClick={[Function]}
+  >
+    x
+  </span>
+</div>
+`;

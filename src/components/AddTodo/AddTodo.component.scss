@@ -1,0 +1,18 @@
+.addTodo {
+    padding-bottom: 1em;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        > * {
+            margin: .5em;
+        }
+
+        input {
+            border-width: 0;
+        }
+    }
+
+}

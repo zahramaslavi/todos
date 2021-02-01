@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Zahraa Almasslawi's Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app provides a Todo application with the ability to add tasks. On each task you can delete that task or check it as complete or incomplete.
+You can also filter the tasks based on their complete state and see the number of visible tasks on the header (filter) of the app.
+Also this app state persist across page reload.
+It also provide unit tests for each component.
 
 ## Available Scripts
 
@@ -18,6 +21,16 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn test -u`
+
+Launches the test runner in the interactive watch mode and save new snapshots of the app's components.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn run test -- --coverage --watchAll=false`
+
+Launches the test runner in the interactive watch mode and create the app test coverage report.\
+If you open the index.html file in the browser located at coverage/lcov-report folder you will be able to view the report.
 
 ### `yarn build`
 
