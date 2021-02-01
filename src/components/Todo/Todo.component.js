@@ -2,7 +2,6 @@ import React from 'react';
 
 import './Todo.component.scss';
 
-// const Todo = ({todo, deleteTodo, toggleComplete}) => {
 const Todo = (props) => {
 
     return (

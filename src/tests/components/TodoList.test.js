@@ -3,9 +3,9 @@ import { shallow } from 'enzyme';
 import TodoList from '../../components/TodoList/TodoList.component';
 
 const data = [
+    {description: 'test',completed: false, id: 0},
     {description: 'test',completed: false, id: 1},
-    {description: 'test',completed: false, id: 1},
-    {description: 'test',completed: false, id: 1},
+    {description: 'test',completed: false, id: 2},
 ];
 
 const onSubmitSpy = jest.fn();
