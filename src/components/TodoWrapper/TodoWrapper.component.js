@@ -6,6 +6,14 @@ import TodoFilter from '../TodoFilter/TodoFilter.component';
 import AddTodo from '../AddTodo/AddTodo.component';
 import TodoList from '../TodoList/TodoList.component';
 
+///TODOS\\\\\\\\\\
+//use useState instead of local state in the class
+//try to have your functions pure: setState(function(input) return output)
+//use session instead of localStorage, if you don't want your data to presist forever
+//use uid instead of incrementing number
+//make sure to test edge cases such as adding empty string
+//if you are using localstorage make sure to check for previously saved state in the storage and save according to that, to not loose any thing
+
 export default class TodoWrapper extends Component {
 
     constructor(props) {
@@ -86,5 +94,3 @@ export default class TodoWrapper extends Component {
         );
     }
 }
-
-// export default TodoWrapper;
